@@ -58,10 +58,9 @@ header nav a:hover {
 /* end header */
 /* start main section */
 .main{
-    background-image: url(../images/1673090208046.JPG);
-    background-size: cover;
+    background-image: url(../images/background.jfif);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     width: 100%;
     min-height: 100vh;
 }
@@ -78,13 +77,13 @@ header nav a:hover {
     font-size: 3em;
     font-weight: 600;
 }
-.main h3{
-    color: var(--seconde-color);
-    font-size: 2em;
-    font-weight: 700;
+.main p{
+    color: gray;
+    font-size: 1.2em;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    width: 400px;
 }
 .main .main-btn{
     color: var(--seconde-color);
@@ -226,6 +225,7 @@ footer {
     position: relative;
     display: flex;
     padding: 30px;
+    justify-content: space-evenly;
 }
 footer .footer-title {
     color: white;
@@ -236,7 +236,7 @@ footer span {
 }
 footer .social-icon {
     position: absolute;
-    right: 30px;
+    margin-top: 32px;
 }
 footer .social-icon a {
     padding-right: 15px;
